@@ -1,0 +1,83 @@
+/* ------------This is the INDEX.html Section----------------------- */
+
+a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e478e8;
+}
+
+#links, #platforms {
+  text-align: center;
+}
+
+#links a {
+  margin: 10px;
+}
+
+#links a, #platforms a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.13em;
+  padding: 0px 25px;
+  border-radius: 5px;
+}
+
+#links a:link, #platforms a:link {
+  background-color: white;
+  border: 1px solid #76c1ef;
+  color: #76c1ef;
+  text-decoration: none;
+
+}
+
+#links a:visited, #platforms a:visited {
+  background-color: white;
+  color: #76c1ef;
+  text-decoration: none;
+
+}
+
+#links a:hover, #platforms a:hover {
+  background-color: #d6e9ff;
+  border: 1px solid #287ee6;
+  color: #287ee6;
+  text-decoration: none;
+}
+
+#links a:active, #platforms a:active {
+  background-color: white;
+  border: 1px solid purple;
+  color: #e478e8;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 27px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+p {
+  color: #696969;
+  font-family: 'Poiret One', cursive;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  word-spacing: 0.2em;
+  padding-bottom: 2em;
+}
+
+
+/* -------------This is the ABOUT.html Section------------------- */
