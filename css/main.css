@@ -22,17 +22,14 @@ a:hover {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   letter-spacing: 0.13em;
-  padding: 0px 25px;
   border-radius: 5px;
-}
-
-#links a:link, #platforms a:link {
   background-color: white;
   border: 1px solid #76c1ef;
   color: #76c1ef;
   text-decoration: none;
-
+  padding: 2px 20px;
 }
+
 
 #links a:visited, #platforms a:visited {
   background-color: white;
@@ -69,14 +66,14 @@ h3 {
   font-size: 17px;
 }
 
-p {
+.Bio p {
   color: #696969;
   font-family: 'Poiret One', cursive;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 21px;
   text-align: center;
+  letter-spacing: 0.1em;
   word-spacing: 0.2em;
-  padding-bottom: 2em;
+  line-height: 1.5em;
 }
 
 
