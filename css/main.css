@@ -3,7 +3,7 @@
 a {
   text-decoration: underline;
   color: black;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 a:hover {
@@ -15,19 +15,19 @@ a:hover {
 }
 
 #links a {
-  margin: 10px;
+  margin: 11px;
 }
 
 #links a, #platforms a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   letter-spacing: 0.13em;
-  border-radius: 5px;
+  border-radius: 1px;
   background-color: white;
-  border: 1px solid #76c1ef;
+  border: 0.5px solid #76c1ef;
   color: #76c1ef;
   text-decoration: none;
-  padding: 2px 20px;
+  padding: 3px 20px;
 }
 
 
