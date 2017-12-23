@@ -69,8 +69,8 @@ h3 {
   top: 200px;
 }
 
-div.bio {
-  display: inline;
+.bio {
+  display: inline-block;
 }
 
 .bio p {
@@ -83,14 +83,14 @@ div.bio {
   line-height: 1.5em;
 
   position: relative;
-  left: 200px;
+  left: 100px;
   width: 800px;
   margin: 0 auto;
 }
 
 .about {
   position: relative;
-  left: 450px;
+  left: 100px;
   width: 800px;
   margin: 20px 100px;
 }
