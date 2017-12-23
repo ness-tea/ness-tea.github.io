@@ -109,21 +109,21 @@ h3 {
 
 .links a, .platforms a {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 17.5px;
+  font-size: 15px;
   letter-spacing: 0.13em;
   border-radius: 1px;
   background-color: white;
-  border: 0.5px solid #76c1ef;
-  color: #76c1ef;
+
+  color: #97a0a0;
   text-decoration: none;
-  padding: 3px 20px;
+  padding: 3px 10px;
   padding-top: 6px;
 }
 
 
 .links a:visited, .platforms a:visited {
   background-color: white;
-  color: #76c1ef;
+  color: #97a0a0;
   text-decoration: none;
 
 }
@@ -138,7 +138,7 @@ h3 {
 .links a:active, .platforms a:active {
   background-color: white;
   border: 1px solid purple;
-  color: #e478e8;
+  color: #97a0a0;
   font-size: 18px;
 }
 
