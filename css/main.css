@@ -1,4 +1,6 @@
-/* ------------This is the INDEX.html Section----------------------- */
+* {
+  box-sizing: border-box;
+}
 
 a {
   text-decoration: underline;
@@ -10,17 +12,104 @@ a:hover {
   color: #e478e8;
 }
 
-#links, #platforms {
+h2, .about {
+  font-family: 'Poiret One';
+  font-weight: bolder;
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.header {
+  position: fixed;
+  z-index: 5;
+  bottom: 505px;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+#header-name {
+  font-family: 'Montserrat';
+  font-size: 68px;
+  margin: 20px;
+}
+
+#header-title {
+  font-family: 'Poiret One';
+  font-size: 50px;
+  margin: 20px;
   text-align: center;
 }
 
-#links a {
-  margin: 11px;
+#tab-1 {
+  position: relative;
+  right: 100px;
+  bottom: 130px;
 }
 
-#links a, #platforms a {
-  font-family: 'Josefin Sans', sans-serif;
+#tab-2 {
+  position: relative;
+  left: 70px;
+  bottom: 130px;
+}
+
+#tab-1, #tab-2 {
+  display: inline-block;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  top: 200px;
+}
+
+div.bio {
+  display: inline;
+}
+
+.bio p {
+  color: black;
+  font-family: 'Roboto';
   font-size: 20px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  line-height: 1.5em;
+
+  position: relative;
+  left: 200px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.about {
+  position: relative;
+  left: 450px;
+  width: 800px;
+  margin: 20px 100px;
+}
+
+.platforms {
+  margin-bottom: 100px;
+}
+
+.links, .platforms {
+  text-align: center;
+}
+
+.links a {
+  margin: 0px 10px;
+}
+
+.links a, .platforms a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17.5px;
   letter-spacing: 0.13em;
   border-radius: 1px;
   background-color: white;
@@ -28,53 +117,29 @@ a:hover {
   color: #76c1ef;
   text-decoration: none;
   padding: 3px 20px;
+  padding-top: 6px;
 }
 
 
-#links a:visited, #platforms a:visited {
+.links a:visited, .platforms a:visited {
   background-color: white;
   color: #76c1ef;
   text-decoration: none;
 
 }
 
-#links a:hover, #platforms a:hover {
+.links a:hover, .platforms a:hover {
   background-color: #d6e9ff;
   border: 1px solid #287ee6;
   color: #287ee6;
   text-decoration: none;
 }
 
-#links a:active, #platforms a:active {
+.links a:active, .platforms a:active {
   background-color: white;
   border: 1px solid purple;
   color: #e478e8;
   font-size: 18px;
 }
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 27px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 17px;
-}
-
-.Bio p {
-  color: #696969;
-  font-family: 'Poiret One', cursive;
-  font-size: 21px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  word-spacing: 0.2em;
-  line-height: 1.5em;
-}
-
 
 /* -------------This is the ABOUT.html Section------------------- */
