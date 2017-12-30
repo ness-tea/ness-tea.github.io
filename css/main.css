@@ -23,12 +23,29 @@ h3 {
   font-size: 17px;
 }
 
+/* ------------- header menu stuff
 .header {
   position: fixed;
   z-index: 5;
   bottom: 505px;
   width: 100%;
   padding: 5px 0px;
+}
+------------------- */
+
+.header {
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  width: 100%;
+  padding-top: 13px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+  position: relative;
+  top: 200px;
 }
 
 #header-name {
@@ -44,29 +61,14 @@ h3 {
   text-align: center;
 }
 
-#tab-1 {
-  position: relative;
-  right: 100px;
-  bottom: 130px;
-}
-
-#tab-2 {
-  position: relative;
-  left: 70px;
-  bottom: 130px;
-}
-
 #tab-1, #tab-2 {
-  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
 }
 
 .textalign {
   text-align: center;
-}
-
-.content {
-  position: relative;
-  top: 200px;
 }
 
 .bio {
@@ -112,7 +114,7 @@ h3 {
   font-size: 15px;
   letter-spacing: 0.13em;
   border-radius: 1px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 
   color: #97a0a0;
   text-decoration: none;
@@ -122,7 +124,7 @@ h3 {
 
 
 .links a:visited, .platforms a:visited {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   color: #97a0a0;
   text-decoration: none;
 
@@ -136,7 +138,7 @@ h3 {
 }
 
 .links a:active, .platforms a:active {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid purple;
   color: #97a0a0;
   font-size: 18px;
