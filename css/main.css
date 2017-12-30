@@ -40,7 +40,7 @@ h3 {
   z-index: 5;
   width: 100%;
   padding-top: 13px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .content {
@@ -114,7 +114,6 @@ h3 {
   font-size: 15px;
   letter-spacing: 0.13em;
   border-radius: 1px;
-  background-color: rgba(255, 255, 255, 0.8);
 
   color: #97a0a0;
   text-decoration: none;
@@ -124,7 +123,6 @@ h3 {
 
 
 .links a:visited, .platforms a:visited {
-  background-color: rgba(255, 255, 255, 0.8);
   color: #97a0a0;
   text-decoration: none;
 
@@ -138,7 +136,6 @@ h3 {
 }
 
 .links a:active, .platforms a:active {
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid purple;
   color: #97a0a0;
   font-size: 18px;
