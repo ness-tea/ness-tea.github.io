@@ -12,7 +12,7 @@ a:hover {
   color: #e478e8;
 }
 
-h2, .about {
+h2 {
   font-family: 'Poiret One';
   font-weight: bolder;
   font-size: 60px;
@@ -41,6 +41,7 @@ h3 {
   width: 100%;
   padding-top: 13px;
   background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 0.5px solid #97a0a0;
 }
 
 .content {
@@ -68,34 +69,39 @@ h3 {
   right: 10px;
 }
 
-.textalign {
+.text-centered {
   text-align: center;
 }
 
 .bio {
   display: inline-block;
+  max-height: 500px;
+}
+
+.prof-pic {
+  position: relative;
+  right: 30px;
 }
 
 .bio p {
   color: black;
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   line-height: 1.5em;
 
   position: relative;
-  left: 100px;
-  width: 800px;
-  margin: 0 auto;
+  left: 50px;
+  min-width: 100px;
+  max-width: 700px;
+  margin-right: 70px;
 }
 
 .about {
-  position: relative;
-  left: 100px;
-  width: 800px;
-  margin: 20px 100px;
+  margin: 20px 50px;
+  text-align: left;
 }
 
 .platforms {
@@ -117,6 +123,7 @@ h3 {
   border-radius: 1px;
 
   color: #97a0a0;
+  border: 0.5px solid rgba(255, 255, 255, 0.0);
   text-decoration: none;
   padding: 3px 10px;
   padding-top: 6px;
@@ -131,13 +138,12 @@ h3 {
 
 .links a:hover, .platforms a:hover {
   background-color: #d6e9ff;
-  border: 1px solid #287ee6;
+  border: 0.5px solid #287ee6;
   color: #287ee6;
   text-decoration: none;
 }
 
 .links a:active, .platforms a:active {
-  border: 1px solid purple;
   color: #97a0a0;
   font-size: 18px;
 }
