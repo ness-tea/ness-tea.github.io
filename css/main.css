@@ -124,7 +124,10 @@ h3 {
   border-radius: 1px;
 
   color: #97a0a0;
+  background-color: rgba(255, 255, 255, 0.0);
   border: 0.5px solid rgba(255, 255, 255, 0.0);
+  transition: color 1s, background-color 1s;
+
   text-decoration: none;
   padding: 3px 10px;
   padding-top: 6px;
@@ -138,15 +141,17 @@ h3 {
 }
 
 .links a:hover, .platforms a:hover {
-  background-color: #d6e9ff;
-  border: 0.5px solid #287ee6;
   color: #287ee6;
+  background-color: #e5f9ff;
+
+  border: 0.5px solid #287ee6;
   text-decoration: none;
 }
 
 .links a:active, .platforms a:active {
-  color: #97a0a0;
-  font-size: 18px;
+  color: #361356;
+  background-color: #ecd8ff;
+  font-size: 15px;
 }
 
 /* -------------This is the ABOUT.html Section------------------- */
