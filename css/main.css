@@ -101,6 +101,8 @@ h3 {
 }
 
 .about {
+  font-family: 'Montserrat';
+  font-weight: 50;
   margin: 20px 50px;
   text-align: left;
 }
