@@ -21,6 +21,12 @@ h2 {
 
 h3 {
   font-size: 17px;
+  font-weight: 400;
+}
+
+.static-bg-1 {
+  background-position: top 20px;
+  background-image: url(../Images/head_background.png);
 }
 
 /* ------------- header menu stuff
@@ -54,10 +60,11 @@ h3 {
   font-family: 'Montserrat';
   font-size: 68px;
   margin: 20px;
+  background: Images/head_background.png
 }
 
 #header-title {
-  font-family: 'Poiret One';
+  font-family: 'Quicksand';
   font-size: 50px;
   margin: 20px;
   text-align: center;
@@ -65,7 +72,7 @@ h3 {
 
 #tab-1, #tab-2 {
   position: relative;
-  bottom: 40px;
+  bottom: 23px;
   right: 10px;
 }
 
@@ -120,8 +127,8 @@ h3 {
 }
 
 .links a, .platforms a {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
   letter-spacing: 0.13em;
   border-radius: 1px;
 
