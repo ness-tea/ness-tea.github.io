@@ -14,7 +14,7 @@ a:hover {
 
 h2 {
   font-family: 'Poiret One';
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 55px;
   padding-top: 5px;
 }
@@ -58,6 +58,10 @@ h3 {
   width: 100%;
 }
 
+.contact {
+
+}
+
 #header-name {
   font-family: 'Montserrat';
   font-size: 68px;
@@ -92,7 +96,7 @@ h3 {
 }
 
 .bio p {
-  color: black;
+  color: #545454;
   font-family: 'Roboto';
   font-size: 15px;
   font-weight: lighter;
@@ -116,7 +120,7 @@ h3 {
 }
 
 .platforms {
-  margin-bottom: 100px;
+  margin: 0px 10px;
 }
 
 .links, .platforms {
@@ -125,6 +129,18 @@ h3 {
 
 .links a {
   margin: 0px 10px;
+
+  color: #454545;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 0.5px solid rgba(255, 255, 255, 0.0);
+  transition: color 1s, background-color 1s;
+}
+
+.platforms a {
+  color: #6D6D6D;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0.5px solid #6D6D6D;
+  transition: color 1s, background-color 1s;
 }
 
 .links a, .platforms a {
@@ -133,11 +149,6 @@ h3 {
   letter-spacing: 0.13em;
   border-radius: 1px;
 
-  color: #97a0a0;
-  background-color: rgba(255, 255, 255, 0.0);
-  border: 0.5px solid rgba(255, 255, 255, 0.0);
-  transition: color 1s, background-color 1s;
-
   text-decoration: none;
   padding: 3px 10px;
   padding-top: 6px;
@@ -145,7 +156,7 @@ h3 {
 
 
 .links a:visited, .platforms a:visited {
-  color: #97a0a0;
+  color: #454545;
   text-decoration: none;
 
 }
