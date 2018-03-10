@@ -16,7 +16,7 @@ h2 {
   font-family: 'Poiret One';
   font-weight: bolder;
   font-size: 55px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 h3 {
@@ -94,7 +94,7 @@ h3 {
 .bio p {
   color: black;
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 15px;
   font-weight: lighter;
   text-align: left;
   letter-spacing: 0.1em;
