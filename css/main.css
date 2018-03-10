@@ -31,6 +31,12 @@ h3 {
   background-position: center top;
 }
 
+.static-bg-about {
+  background-image: url(../Images/about_backgroud.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
 /* ------------- header menu stuff
 .header {
   position: fixed;
@@ -66,7 +72,6 @@ h3 {
   font-family: 'Montserrat';
   font-size: 68px;
   margin-top: 110px;
-  background: Images/head_background.png
 }
 
 #header-title {
@@ -97,9 +102,9 @@ h3 {
 
 .bio p {
   color: #545454;
-  font-family: 'Roboto';
+  font-family: 'Quicksand';
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: normal;
   text-align: left;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
@@ -113,14 +118,10 @@ h3 {
 }
 
 .about {
-  font-family: 'Montserrat';
+  font-family: 'Poiret One';
   font-weight: 50;
   margin: 20px 50px;
   text-align: left;
-}
-
-.platforms {
-  margin: 0px 10px;
 }
 
 .links, .platforms {
@@ -137,6 +138,8 @@ h3 {
 }
 
 .platforms a {
+  margin: 0px 15px;
+
   color: #6D6D6D;
   background-color: rgba(255, 255, 255, 1);
   border: 0.5px solid #6D6D6D;
