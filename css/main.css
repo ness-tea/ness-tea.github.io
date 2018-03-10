@@ -34,6 +34,7 @@ h3 {
 .static-bg-about {
   background-image: url(../Images/about_backgroud.png);
   background-repeat: no-repeat;
+  background-attachment: local;
   background-position: center top;
 }
 
@@ -176,6 +177,7 @@ h3 {
   color: #361356;
   background-color: #ecd8ff;
   font-size: 15px;
+  transition: font-size 0.5s;
 }
 
 /* -------------This is the ABOUT.html Section------------------- */
