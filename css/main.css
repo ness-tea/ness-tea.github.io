@@ -25,14 +25,14 @@ h3 {
 }
 
 .static-bg-1 {
-  background-image: url(../Images/head_background.png);
+  background-image: url(../Images/Page_backgrounds/head_background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
 }
 
 .static-bg-about {
-  background-image: url(../Images/about_backgroud.png);
+  background-image: url(../Images/Page_backgrounds/about_backgroud.png);
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center top;
