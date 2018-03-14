@@ -1,4 +1,5 @@
 # JavaScript Notes
+Keeping some notes for reference.
 
 ## About JavaScript
 - **JavaScript** is a scripting language; **NOT** like Java
@@ -10,8 +11,8 @@
 - **Varaibles** in JS are declared with the keyword 'var'
 - No type declaration needed
 - **e.g.** var string = "hello world";
-       var number = 3;
-       var array = [1, 2, 3];
+           var number = 3;
+           var array = [1, 2, 3];
 
 ## Strings
 - Declared with 'var string1 = "hello world";'
@@ -29,8 +30,8 @@
 - Subroutines:
   - Array.length = length of Array
   - Array.sort() = sorts array from low to high value
-      - If string, alphabetical order
-      - If numbers, numerical order
-      - order from low to high is numbers, boolean, string
+    - If string, alphabetical order
+    - If numbers, numerical order
+    - order from low to high is numbers, boolean, string
   - Array.reverse() = sort array from high to low value
-      - opposite of sort
+    - opposite of sort
