@@ -1,19 +1,20 @@
 # JavaScript Notes
+Keeping some notes for reference.
 
-## A B O U T   J A V A S C R I P T
+## About JavaScript
 - **JavaScript** is a scripting language; **NOT** like Java
 - Should always be included at the end of the  body tag (right before </body>)
   - HTML reads from top to bottom; this is to ensure that page is loaded before js script is
 - All statements should end with a semi-colon ;
 
-## V A R I A B L E S
+## Variables
 - **Varaibles** in JS are declared with the keyword 'var'
 - No type declaration needed
 - **e.g.** var string = "hello world";
-       var number = 3;
-       var array = [1, 2, 3];
+           var number = 3;
+           var array = [1, 2, 3];
 
-## S T R I N G S
+## Strings
 - Declared with 'var string1 = "hello world";'
 - If there is a string within a string, use single quotations outside, and double quotations on
   inner string
@@ -22,15 +23,15 @@
   back escape key
   - **e.g.** var string1 = 'I\'m a "ninja"';
 
-## A R R A Y S
+## Arrays
 - Declared with 'var Array = [];' which declares an empty array
 - Can assign elements to array by 'Array[0] = 1', 'Array[1] = 2', etc.
 - Declare an array with fixed size using 'var Array = new Array(5)'
 - Subroutines:
   - Array.length = length of Array
   - Array.sort() = sorts array from low to high value
-      - If string, alphabetical order
-      - If numbers, numerical order
-      - order from low to high is numbers, boolean, string
+    - If string, alphabetical order
+    - If numbers, numerical order
+    - order from low to high is numbers, boolean, string
   - Array.reverse() = sort array from high to low value
-      - opposite of sort
+    - opposite of sort
