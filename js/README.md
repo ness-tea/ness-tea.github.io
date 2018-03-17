@@ -35,3 +35,13 @@ Keeping some notes for reference.
     - order from low to high is numbers, boolean, string
   - Array.reverse() = sort array from high to low value
     - opposite of sort
+
+## Objects
+- A container that encloses data
+  - **e.g.** an array is an object
+- has properties and methods
+  - dot notation to access behaviours and methods
+    - **e.g.** var myString = new String(); instantiates a new string
+               myString = "hello";
+               myString.length will return 5 (a property)
+               myString.toLowerCase() will return the string in lowercase letters (a method)
