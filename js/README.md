@@ -45,3 +45,21 @@ Keeping some notes for reference.
                myString = "hello";
                myString.length will return 5 (a property)
                myString.toLowerCase() will return the string in lowercase letters (a method)
+- **Creating a JS object**
+  - var myCar = new Object(); creates a new object
+- **Assigning Properties**
+  - myCar.maxSpeed = 50;
+  - myCar.driver = "Vanessa";
+- **Assigning Methods**
+  - myCar.drive = function() {console.log("now driving");};
+  - note the double semi-colon
+  - to call, use parantheses (**i.e.** myCar.drive();)
+
+- Another way to create a JS object is by using an array:
+  - var myCar2 = {
+        maxspeed: 50,
+        driver: "Bob",
+        drive: function(speed, time){ < This logs the distance travelled
+          console.log(speed * time);    
+          }
+        };
