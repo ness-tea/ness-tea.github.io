@@ -100,15 +100,18 @@ h3 {
   right: 30px;
 }
 
-.bio p {
+p{
   color: #262626;
   font-family: 'Quicksand';
   font-size: 15px;
   font-weight: normal;
-  text-align: left;
+  text-align: text-centered;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   line-height: 1.5em;
+}
+.bio p {
+  text-align: left;
 
   position: relative;
   left: 50px;
