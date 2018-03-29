@@ -16,13 +16,20 @@ h2 {
   font-family: 'Poiret One';
   font-weight: lighter;
   font-size: 55px;
-  padding-top: 3px;
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
   text-shadow: left;
   font-size: 17px;
   font-weight: 400;
+  margin: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 .static-bg-1 {
@@ -30,6 +37,7 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
+  backgound-size: cover;
 }
 
 .static-bg-about {
@@ -63,6 +71,7 @@ h3 {
 .content {
   position: relative;
   width: 100%;
+  padding: 0;
 }
 
 .contact {
