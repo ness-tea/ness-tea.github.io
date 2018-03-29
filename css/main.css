@@ -48,18 +48,11 @@ body, html {
   background-size: 100%;
 }
 
-.static-bg-about {
-  background-image: url(../Images/Page_backgrounds/about_backgroud.png);
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-position: center top;
-}
-
 .static-bg-contact {
   background-image: url(../Images/Page_backgrounds/contact_bg.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center top;
+  background-size: 100%;
 }
 
 .static-bg-project {
