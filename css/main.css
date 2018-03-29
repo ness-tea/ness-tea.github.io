@@ -20,6 +20,7 @@ h2 {
 }
 
 h3 {
+  text-shadow: left;
   font-size: 17px;
   font-weight: 400;
 }
@@ -97,13 +98,22 @@ h3 {
 
 .prof-pic {
   position: relative;
-  right: 30px;
+  padding-right: 30px;
+}
+
+div.prof-pic {
+  opacity: 0.85;
+  transition: opacity 0.5s;
+}
+
+div.prof-pic:hover {
+  opacity: 1.0;
 }
 
 p{
-  color: #262626;
-  font-family: 'Quicksand';
-  font-size: 15px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 14px;
   font-weight: normal;
   text-align: text-centered;
   letter-spacing: 0.1em;
