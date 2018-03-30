@@ -45,14 +45,14 @@ body, html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .static-bg-contact {
   background-image: url(../Images/Page_backgrounds/contact_bg.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .static-bg-project {
@@ -104,7 +104,6 @@ hr.style2 {
 #tab-1, #tab-2 {
   position: relative;
   bottom: 23px;
-  right: 10px;
 }
 
 .text-centered {
@@ -154,7 +153,7 @@ p{
   font-family: 'Poiret One';
   font-weight: 50;
   margin: 20px 50px;
-  text-align: left;
+  text-align: center;
 }
 
 .links, .platforms {
