@@ -191,7 +191,6 @@ p{
   color: #454545;
   background-color: rgba(255, 255, 255, 0.0);
   border: 0.5px solid rgba(255, 255, 255, 0.0);
-  transition: color 1s, background-color 1s;
 }
 
 .platforms a {
@@ -200,7 +199,6 @@ p{
   color: #6D6D6D;
   background-color: rgba(255, 255, 255, 1);
   border: 0.5px solid #6D6D6D;
-  transition: color 1s, background-color 1s;
 }
 
 .links a, .platforms a {
@@ -211,6 +209,7 @@ p{
 
   text-decoration: none;
   padding: 3px 5px;
+  transition: color 1s, background-color 1s;
 }
 
 
