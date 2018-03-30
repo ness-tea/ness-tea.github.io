@@ -92,13 +92,26 @@ hr.style2 {
 
 #header-name {
   font-family: 'Montserrat';
-  font-size: 68px;
+  font-size: 58px;
+  display:inline;
+  margin: 0px 10px;
+}
+
+#header-title-2 {
+  font-family: 'Kaushan Script';
+  font-size: 35px;
+  font-weight: 100;
+  color: #232323;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 #header-title {
   font-family: 'Quicksand';
-  font-size: 50px;
+  font-size: 33px;
   text-align: center;
+  margin-top: 0px;
+  color: #383838;
 }
 
 #tab-1, #tab-2 {
@@ -116,8 +129,7 @@ hr.style2 {
 }
 
 .prof-pic {
-  position: relative;
-  padding-right: 30px;
+  padding: 10px 20px;
 }
 
 div.prof-pic {
