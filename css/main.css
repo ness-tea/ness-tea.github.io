@@ -3,13 +3,15 @@
 }
 
 a {
-  text-decoration: underline;
-  color: black;
-  font-weight: normal;
+  text-decoration: none;
+  font-weight: lighter;
+  color: #474747;
+
+  transition: color 0.5s;
 }
 
 a:hover {
-  color: #e478e8;
+  color: #a8a8a8;
 }
 
 h2.title {
@@ -122,6 +124,13 @@ hr.style2 {
 #tab-1, #tab-2 {
   position: relative;
   bottom: 23px;
+}
+
+#project-arr {
+  text-align: right;
+  margin-right: 130px;
+
+  font-size: 45px;
 }
 
 .text-centered {
