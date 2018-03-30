@@ -75,7 +75,7 @@ hr.style2 {
   top: 0px;
   z-index: 5;
   width: 100%;
-  padding-top: 13px;
+  padding-top: 5px;
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 0.5px solid #97a0a0;
 }
@@ -174,7 +174,6 @@ p{
 
 .links a {
   margin: 0px 10px;
-
   color: #454545;
   background-color: rgba(255, 255, 255, 0.0);
   border: 0.5px solid rgba(255, 255, 255, 0.0);
@@ -197,8 +196,7 @@ p{
   border-radius: 1px;
 
   text-decoration: none;
-  padding: 3px 10px;
-  padding-top: 6px;
+  padding: 3px 5px;
 }
 
 
