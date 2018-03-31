@@ -209,7 +209,7 @@ p{
 
   text-decoration: none;
   padding: 3px 5px;
-  transition: color 1s, background-color 1s;
+  transition: color 1s;
 }
 
 
@@ -221,17 +221,14 @@ p{
 
 .links a:hover, .platforms a:hover {
   color: #287ee6;
-  background-color: #e5f9ff;
-
   border: 0.5px solid #287ee6;
   text-decoration: none;
 }
 
 .links a:active, .platforms a:active {
   color: #361356;
-  background-color: #ecd8ff;
-  font-size: 15px;
-  transition: font-size 0.5s;
+  background-color: #e5f9ff;
+  transition: background-color 1s;
 }
 
 /* -------------This is the ABOUT.html Section------------------- */
