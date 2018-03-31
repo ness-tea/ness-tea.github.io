@@ -209,7 +209,7 @@ p{
 
   text-decoration: none;
   padding: 3px 5px;
-  transition: color 1s;
+  transition: .2s ease-out;
 }
 
 
@@ -220,6 +220,7 @@ p{
 }
 
 .links a:hover, .platforms a:hover {
+  transform: scale(1.02);
   color: #287ee6;
   border: 0.5px solid #287ee6;
   text-decoration: none;
