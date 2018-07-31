@@ -14,6 +14,11 @@ a:hover {
   color: #a8a8a8;
 }
 
+h1 {
+  width: 100%;
+  margin: 40px auto;
+}
+
 h2.title {
   font-family: 'Poiret One';
   font-weight: lighter;
@@ -40,10 +45,50 @@ h3 {
 body, html {
   margin: 0;
   padding: 0;
+  min-height: 100%;
+  text-align: center;
+}
+
+/* ------------- hr tag styles -------------------------- */
+hr.style2 {
+  border-top: 3px double #76c1ef;
+  width: 15%;
+}
+/*--------------- end ------------------- */
+
+.content {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+.contact {
+
+}
+
+.header {
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  width: 100%;
+  padding-top: 5px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 0.5px solid #97a0a0;
+}
+
+.header-content {
+  position:relative;
+  left: 15px;
+}
+
+.intro {
+  padding-top: 15%;
 }
 
 .static-bg-1 {
   background-image: url(../Images/Page_backgrounds/head_bg_1.png);
+  min-height: 50vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -62,41 +107,49 @@ body, html {
 .static-bg-project {
   background-image: url(../Images/Page_backgrounds/projects_bg.png);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
+  background-size: contain;
 }
 
+.welcome {
 
-/* ------------- hr tag styles -------------------------- */
-hr.style2 {
-  border-top: 3px double #76c1ef;
-  width: 15%;
-}
-/*--------------- end ------------------- */
-
-.header {
-  text-align: center;
-  position: fixed;
-  top: 0px;
-  z-index: 5;
-  width: 100%;
-  padding-top: 5px;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 0.5px solid #97a0a0;
 }
 
-.header-content {
-  position:relative;
-  left: 15px;
+#hline1 {
+  font-family: 'Kaushan Script';
+  font-size: 35px;
+  font-weight: 100;
+  color: #232323;
+  margin-bottom: 5px;
 }
 
-.content {
-  position: relative;
-  width: 100%;
-  padding: 0;
+#hline2, #hline2-2 {
+  font-family: 'Montserrat';
+  font-size: 58px;
+  display:inline;
+  letter-spacing: 0.3em;
 }
 
-.contact {
+#hline2 {
+  font-weight: 100;
+  color: #606060;
+}
 
+#hline2-2 {
+  font-weight: 600;
+  color: #fff;
+  text-shadow:
+  -1px -1px 0 #939393,
+  1px -1px 0 #939393,
+  -1px 1px 0 #939393,
+  1px 1px 0 #939393;
+}
+
+#hline3 {
+  font-family: 'Quicksand';
+  font-size: 29px;
+  margin-top: 0px;
+  color: #383838;
 }
 
 #header-name {
@@ -196,6 +249,10 @@ p{
   color: #454545;
   background-color: rgba(255, 255, 255, 0.0);
   border: 0.5px solid rgba(255, 255, 255, 0.0);
+}
+
+.links a.current{
+  background: #287ee6;
 }
 
 .platforms a {
