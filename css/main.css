@@ -117,7 +117,7 @@ hr.style2 {
 
 #hline1 {
   font-family: 'Kaushan Script';
-  font-size: 35px;
+  font-size: 200%;
   font-weight: 100;
   color: #232323;
   margin-bottom: 5px;
@@ -125,7 +125,7 @@ hr.style2 {
 
 #hline2, #hline2-2 {
   font-family: 'Montserrat';
-  font-size: 58px;
+  font-size: 350%;
   display:inline;
   letter-spacing: 0.3em;
 }
@@ -147,7 +147,7 @@ hr.style2 {
 
 #hline3 {
   font-family: 'Quicksand';
-  font-size: 29px;
+  font-size: 175%;
   margin-top: 0px;
   color: #383838;
 }
