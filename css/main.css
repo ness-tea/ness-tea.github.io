@@ -22,7 +22,7 @@ h1 {
 h2.title {
   font-family: 'Poiret One';
   font-weight: lighter;
-  font-size: 55px;
+  font-size: 300%;
   padding: 0;
   margin: 0;
 }
@@ -74,7 +74,7 @@ hr.style2 {
   width: 100%;
   padding-top: 5px;
   background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 0.5px solid #97a0a0;
+  border-bottom: 0.1px solid #97a0a0;
 }
 
 .header-content {
@@ -93,6 +93,7 @@ hr.style2 {
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
+  border-bottom: 0.5px solid #97a0a0;
 }
 
 .static-bg-contact {
@@ -102,6 +103,8 @@ hr.style2 {
   background-size: cover;
   background-color: rgba(255,255,255,0.3);
   background-blend-mode: lighten;
+  border-top: 0.5px solid #97a0a0;
+  border-bottom: 0.5px solid #97a0a0;
 }
 
 .static-bg-project {
@@ -109,6 +112,8 @@ hr.style2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border-top: 0.5px solid #97a0a0;
+  border-bottom: 0.5px solid #97a0a0;
 }
 
 .welcome {
@@ -216,7 +221,7 @@ div.prof-pic:hover {
 p{
   color: #000000;
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: 85%;
   font-weight: normal;
   text-align: text-centered;
   letter-spacing: 0.1em;
@@ -227,7 +232,7 @@ p{
   text-align: left;
 
   position: relative;
-  left: 50px;
+  left: 100px;
   min-width: 100px;
   max-width: 700px;
   margin-right: 70px;
