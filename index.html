@@ -4,17 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>Vanessa Truong</title>
+
+<!--- Google fonts --->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
+
+<!--- CSS Styling --->
   <link href="css/main.css" type="text/css" rel="stylesheet">
-  <link rel="icon" href="Logos/header-ico.png">
+  <link href="assets/slick/slick/slick.css" type="text/css" rel="stylesheet">
+  <link href="assets/slick/slick/slick-theme.css" type="text/css" rel="stylesheet">
+
+  <link rel="icon" href="assets/Logos/header-ico.png">
 </head>
 
 <body>
+
+<!--- Nav Bar --->
   <div id="home-section"></div>
   <div class="header">
     <div class="header-content">
@@ -24,7 +33,7 @@
       </div>
 
       <div style="display: inline;">
-          <a href="#home-section"><img src = "Logos/header-final-5-2.jpg" alt="Vanessa Truong" width="55" height = "55" style="margin-left:10px;margin-right:10px"/></a>
+          <a href="#home-section"><img src = "assets/Logos/header-final-5-2.jpg" alt="Vanessa Truong" width="55" height = "55" style="margin-left:10px;margin-right:10px"/></a>
       </div>
 
       <div class="links" id="tab-2" style="display: inline">
@@ -40,37 +49,40 @@
     <div class="static-bg-1">
       <div class="intro">
         <h2 id="hline1">my name is</h2>
-        <h1 id="hline2">VANESSA</h1>
+        <h1 id="hline2">VANESSA </h1>
         <h1 id="hline2-2">TRUONG</h1>
         <br/>
-        <hr style="border: 0.8px solid #42b7ff; width: 700px"/>
-        <hr style="border: 0.8px solid #42b7ff; width: 700px"/>
-        <h3 id="hline3">🗹 programmer 🗹 creator 🗹 designer</h3>
+        <hr style="border: 2.5px solid #8dbdc1; width: 55%"/>
+        <hr style="border: 2px solid #afd7db; width: 40%"/>
+        <h3 id="hline3">🗹 programmer    </h3>
+        <h3 id="hline3-2">🗹 creator     </h3>
+        <h3 id="hline3-3">🗹 designer    </h3>
       </div>
-      <br/><br/><br/>
     </div>
     <div id="about-section"></div>
     <br/><br/><br/>
 
-    <div class="prof-pic"><img src="Images/Profile/Profile.png" alt="profile" width="325" height="390" style="border-radius:50%"/></div>
+    <div class="static-bg-2">
+      <div class="prof-pic"><img src="assets/Images/Profile/Profile.png" alt="profile" width="325" height="390" style="border-radius:50%"/></div>
 
-    <section class="bio">
-      <h2 class="about title">﹤ <b>H</b> e l l o <b>W</b> o r l d! <span style="font-family:'Josefin';">/</span>﹥</h2>
-      <h2 class="emoji">☺️</h2>
-      <p>
-          I'm an aspiring <b>software engineer & game developer</b>, currently exploring areas of graphics driver development, game development,
-          human-computer interaction, and VR/AR. I'm a fourth year undergraduate at McMaster University, studying Software Engineering + Game Design.
-          <br/><br/>
-          As both a <b>problem solver</b> & <b>designer</b>, I hope to pursue a career that would integrate & foster both my skills & interests.
-          My passion for art and gaming began with my four year old self, sketching characters from Naruto and smashing buttons on a Nintendo controller.
-          From here, my endeavor to make a mark in the design tech industry sprouted. After many chapters of soul-searching, I found software to be the perfect outlet
-          for me to express my ideas and creativity - while cultivating my desire for challenge!
-          <br/><br/>
-          I spend my leisure grinding through side projects, spilling art onto paper, escaping reality through books, grooving to beats & enlightening myself with anything that intrigues me! I also like to game.
-          <br/><br/>
-          <i>"It always seems impossible until it's done."</i>
-      </p>
-    </section>
+      <section class="bio">
+        <h2 class="about title">﹤ <b>H</b> e l l o <b>W</b> o r l d! <span style="font-family:'Josefin';">/</span>﹥</h2>
+        <h2 class="emoji">☺️</h2>
+        <p>
+            I'm an aspiring <b>software engineer & game developer</b>, currently exploring areas of graphics driver development, game development,
+            human-computer interaction, and VR/AR. I'm a fourth year undergraduate at McMaster University, studying Software Engineering + Game Design.
+            <br/><br/>
+            As both a <b>problem solver</b> & <b>designer</b>, I hope to pursue a career that would integrate & foster both my skills & interests.
+            My passion for art and gaming began with my four year old self, sketching characters from Naruto and smashing buttons on a Nintendo controller.
+            From here, my endeavor to make a mark in the design tech industry sprouted. After many chapters of soul-searching, I found software to be the perfect outlet
+            for me to express my ideas and creativity - while cultivating my desire for challenge!
+            <br/><br/>
+            I spend my leisure grinding through side projects, spilling art onto paper, escaping reality through books, grooving to beats & enlightening myself with anything that intrigues me! I also like to game.
+            <br/><br/>
+            <i>"It always seems impossible until it's done."</i>
+        </p>
+      </section>
+    </div>
 
     <br/>
     <div id="projects-section"></div>
@@ -82,9 +94,12 @@
       <br/>
       <hr class="style2">
       <p>A glimpse at some projects I've worked on ♡</p>
-      <br/><br/><br/><br/><br/><br/><br/>
-      <div id="project-arr">
-        <a href="#project-next">↠</a>
+      <br/><br/><br/>
+      <div class="project-arr">
+        <div class="project-item">The Village</div>
+        <div class="project-item"><img src="assets/Images/Projects/snake_20/overview.png" alt="Snake 2.0 [Remastered]"></div>
+        <div class="project-item"><img src="assets/Images/Projects/terrain_simulator_v0/purpleMesh.png" alt="Terrain Simulator"></div>
+        <div class="project-item">Object-Scene Modeler</div>
       </div>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <div id="art-section"></div>
@@ -123,6 +138,12 @@
    <hr style="width:200px" />
    <br/>
   </div>
+
+<!--- JS styling --->
+  <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+
 </body>
 
 </html>
