@@ -6,8 +6,8 @@
 }
 
 @keyframes fadein-fadedown {
-  from {transform: translateY(-30px); opacity:0;}
-  to {transform: translateY(initial); opacity:1;}
+  0%    {opacity:0; transform: translateY(-30px);}
+  100%  {opacity:1; transform: translateY(initial);}
 }
 
 @keyframes slideX {
@@ -65,7 +65,7 @@ body, html {
   padding: 0;
   min-height: 100%;
   text-align: center;
-  transition
+  scroll-behavior:  smooth;
 }
 
 /* ------------- hr tag styles -------------------------- */
@@ -94,7 +94,7 @@ hr.style2 {
   padding-top: 5px;
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 0.1px solid #97a0a0;
-  animation: fadein-fadedown 1.5s;
+  animation: fadein-fadedown 2s;
   animation-iteration-count: 1;
 }
 
@@ -105,35 +105,48 @@ hr.style2 {
 
 .intro {
   padding-top: 15%;
-  animation: fadein 1s;
+  animation: fadein 0.5s;
   animation-iteration-count: 0.5;
 }
 
 .static-bg-1 {
-  background-image: url(../Images/Page_backgrounds/head_bg_1.png);
+  background-image: url(../assets/Images/Page_backgrounds/head_bg_1.png);
   min-height: 50vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center;
   background-size: cover;
   border-bottom: 0.5px solid #97a0a0;
   animation: fadein 5s;
   animation-iteration-count: 1;
 }
 
-.static-bg-contact {
-  background-image: url(../Images/Page_backgrounds/contact_bg.png);
+.static-bg-2 {
+  background-color: #FFFFFF;
+  min-height: 45vw;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center top;
+  background-size: cover;
+  animation: fadein 5s;
+  animation-iteration-count: 1;
+}
+
+.static-bg-contact {
+  background-image: url(../assets/Images/Page_backgrounds/contact_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-color: rgba(255,255,255,0.3);
   background-blend-mode: lighten;
   border-top: 0.5px solid #97a0a0;
   border-bottom: 0.5px solid #97a0a0;
+  min-height: 17vw;
 }
 
 .static-bg-project {
-  background-image: url(../Images/Page_backgrounds/projects_bg.png);
+  background-color: #F0F0F0;
+  background-image: url(../assets/Images/Page_backgrounds/projects_bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -175,11 +188,13 @@ hr.style2 {
   1px 1px 0 #939393;
 }
 
-#hline3 {
+#hline3, #hline3-2, #hline3-3 {
   font-family: 'Quicksand';
   font-size: 175%;
-  margin-top: 0px;
+  margin-top: 1%;
   color: #383838;
+  display: inline;
+  margin-right: 2%;
 }
 
 #header-name {
@@ -228,11 +243,14 @@ hr.style2 {
 .bio {
   display: inline-block;
   margin-right: 20px;
+  text-align: center;
 }
 
 .prof-pic {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 5%;
+  margin-right: 3%;
   display: inline-block;
 }
 
