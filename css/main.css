@@ -148,7 +148,7 @@ hr.style2 {
   background-image: url(../assets/Images/Page_backgrounds/projects_bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   border-top: 0.5px solid #97a0a0;
   border-bottom: 0.5px solid #97a0a0;
 }
@@ -227,14 +227,6 @@ hr.style2 {
   animation-iteration-count: 1;
 }
 
-#project-arr {
-  text-align: right;
-  position: relative;
-  right: 100px;
-
-  font-size: 45px;
-}
-
 .text-centered {
   text-align: center;
 }
@@ -260,6 +252,14 @@ hr.style2 {
 
 .prof-pic img:hover {
   opacity: 1.0;
+}
+
+.project-item img{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 35%;
+  margin-top: 2%;
 }
 
 p{
