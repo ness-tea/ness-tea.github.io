@@ -148,7 +148,7 @@ hr.style2 {
   background-image: url(../assets/Images/Page_backgrounds/projects_bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   border-top: 0.5px solid #97a0a0;
   border-bottom: 0.5px solid #97a0a0;
 }
@@ -255,10 +255,10 @@ hr.style2 {
 }
 
 .project-item img{
-  width: 30%;
-  height: 30%;
+  width: 28%;
+  height: 28%;
   position: relative;
-  left: 35%;
+  left: 36%;
   margin-top: 2%;
 }
 

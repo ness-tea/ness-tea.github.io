@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $('.project-arr').slick({
     centerMode: true,
-    slidesToShow: 1,
     responsive: [
       {
         breakpoint: 100,
@@ -9,7 +8,6 @@ $(document).ready(function(){
           dots: true,
           arrows: true,
           centerMode: true,
-          slidesToShow: 1
         }
       },
       {
@@ -18,7 +16,6 @@ $(document).ready(function(){
           dots: true,
           arrows: true,
           centerMode: true,
-          slidesToShow: 1
         }
       }
     ]
