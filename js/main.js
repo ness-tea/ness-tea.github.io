@@ -1,23 +1,8 @@
 $(document).ready(function(){
   $('.project-arr').slick({
-    centerMode: true,
-    responsive: [
-      {
-        breakpoint: 100,
-        settings: {
-          dots: true,
-          arrows: true,
-          centerMode: true,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          dots: true,
-          arrows: true,
-          centerMode: true,
-        }
-      }
-    ]
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
   });
 });

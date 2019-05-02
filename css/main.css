@@ -227,6 +227,9 @@ hr.style2 {
   animation-iteration-count: 1;
 }
 
+/* ------------ slick -------------- */
+
+
 .text-centered {
   text-align: center;
 }
@@ -255,23 +258,46 @@ hr.style2 {
 }
 
 .project-item img{
-  width: 28%;
-  height: 28%;
-  position: relative;
-  left: 36%;
-  margin-top: 2%;
+  width: 25vw;
+  height: 25vw;
+  margin-left: 4vw;
+  margin-bottom: 3vw
+  opacity: 1.0;
+  transition: opacity 0.5s;
+}
+
+.project-item img:hover{
+  width: 25vw;
+  height: 25vw;
+  margin-left: 4vw;
+  margin-bottom: 2vw
+  opacity: 0.85;
+}
+
+.project-title {
+  font-family: 'Montserrat';
+  margin-bottom: 1.3vw;
+  font-size: 2vw;
+  letter-spacing: 0.05em;
+  color: #e5e5e5;
+  text-shadow:
+  -1px -1px 0 #6b6b6b,
+  1px -1px 0 #6b6b6b,
+  -1px 1px 0 #6b6b6b,
+  1px 1px 0 #6b6b6b;
 }
 
 p{
   color: #000000;
   font-family: 'Montserrat';
-  font-size: 85%;
-  font-weight: normal;
+  font-size: 0.85vw;
+  font-weight: lighter;
   text-align: text-centered;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   line-height: 1.5em;
 }
+
 .bio p {
   text-align: left;
 
@@ -343,5 +369,3 @@ p{
   background-color: #e5f9ff;
   transition: background-color 1s;
 }
-
-/* -------------This is the ABOUT.html Section------------------- */
