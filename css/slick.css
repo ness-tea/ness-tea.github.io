@@ -122,9 +122,10 @@
 }
 
 .slick-active {
-  opacity: .5;
+  opacity: 1;
+  transition: opacity .5s;
 }
 
-.slick-current {
-  opacity: 1;
+.slick-active:hover {
+  opacity: .7;
 }

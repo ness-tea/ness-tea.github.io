@@ -301,11 +301,12 @@ hr.style2 {
   1px 1px 0 #6b6b6b;
 }
 
+/* ---------------- Art section ---------------- */
 .art-item img {
   width: 25vw;
   height: 25vw;
   margin: 0 auto;
-
+  border: 2px double #383838;
 }
 
 p{
