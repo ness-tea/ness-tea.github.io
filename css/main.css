@@ -101,18 +101,19 @@ hr.style2 {
 }
 
 .intro {
-  padding-top: 15%;
+  padding-top: 13%;
   animation: fadein 0.5s;
   animation-iteration-count: 0.5;
 }
 
 .static-bg-1 {
-  background-image: url(../assets/Images/Page_backgrounds/head_bg_1.png);
+  background-color: #f1f1f0;
+  background-image: url(../assets/Images/Page_backgrounds/home_bg.png);
   min-height: 50vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-position: center bottom;
+  background-size: contain;
   border-bottom: 0.5px solid #97a0a0;
   animation: fadein 5s;
   animation-iteration-count: 1;
