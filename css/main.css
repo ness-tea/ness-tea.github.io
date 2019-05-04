@@ -67,7 +67,7 @@ body, html {
 
 /* ------------- hr tag styles -------------------------- */
 hr.style2 {
-  border-top: 3px double #76c1ef;
+  border: 2px solid #afd7db;
   width: 15%;
 }
 /*--------------- end ------------------- */
@@ -227,9 +227,6 @@ hr.style2 {
   animation-iteration-count: 1;
 }
 
-/* ------------ slick -------------- */
-
-
 .text-centered {
   text-align: center;
 }
@@ -240,21 +237,41 @@ hr.style2 {
   text-align: center;
 }
 
-.prof-pic {
-  margin-top: 8%;
+.container-prof-pic {
+  margin -top: 8%;
   margin-bottom: 8%;
   margin-left: 5%;
   margin-right: 3%;
+
   display: inline-block;
+  font-family: 'Handlee';
 }
 
-.prof-pic img {
-  opacity: 0.85;
+.container-prof-pic img {
+  border-radius: 50%;
+  opacity: 0.9;
   transition: opacity 0.5s;
 }
 
-.prof-pic img:hover {
-  opacity: 1.0;
+.text-profpic {
+  position: relative;
+  bottom: 15vw;
+  right: 5vw;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.container-prof-pic:hover .profpic{
+  opacity: 0.7;
+}
+
+.container-prof-pic:hover .text-profpic{
+  opacity: 1;
+}
+
+.project-item {
+  position:relative;
+  left: 33vw;
 }
 
 .project-item img{
