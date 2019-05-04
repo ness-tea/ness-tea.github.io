@@ -38,7 +38,7 @@ h1 {
 }
 
 h2.title {
-  font-family: 'Poiret One';
+  font-family: 'Pacifico';
   font-weight: lighter;
   font-size: 300%;
   padding: 0;
@@ -81,19 +81,6 @@ hr.style2 {
 
 .contact {
 
-}
-
-#logo {
-  width: 100%;
-  height: 100%;
-
-  transition: width 0.5s;
-  transition: height 0.5s;
-}
-
-#logo:hover {
-  width: 105%;
-  height: 105%;
 }
 
 .header {
@@ -247,15 +234,13 @@ hr.style2 {
 
 .bio {
   display: inline-block;
-  margin-right: 20px;
   text-align: center;
 }
 
 .container-prof-pic {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 3%;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  margin-left: 3%;
 
   display: inline-block;
   font-family: 'Handlee';
@@ -327,7 +312,6 @@ p{
   color: #000000;
   font-family: 'Montserrat';
   font-size: 0.85vw;
-  font-weight: lighter;
   text-align: text-centered;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
@@ -335,12 +319,12 @@ p{
 }
 
 .bio p {
-  text-align: left;
+  text-align: justify;
 
   position: relative;
   left: 100px;
-  min-width: 100px;
-  max-width: 700px;
+  min-width: 20vw;
+  max-width: 35vw;
   margin-right: 70px;
 }
 
