@@ -145,11 +145,10 @@ hr.style2 {
 }
 
 .static-bg-project {
-  background-color: #F0F0F0;
   background-image: url(../assets/Images/Page_backgrounds/projects_bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   border-top: 0.5px solid #97a0a0;
   border-bottom: 0.5px solid #97a0a0;
 }
@@ -239,8 +238,8 @@ hr.style2 {
 }
 
 .container-prof-pic {
-  margin -top: 8%;
-  margin-bottom: 8%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 5%;
   margin-right: 3%;
 
