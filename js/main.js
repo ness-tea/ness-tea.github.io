@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
   $('.art-arr').slick({
-    dots: false,
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
