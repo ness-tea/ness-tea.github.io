@@ -304,6 +304,12 @@ hr.style2 {
   1px 1px 0 #6b6b6b;
 }
 
+.art-item img {
+  width: 28vw;
+  height: 28vw;
+  margin-left: 36vw;
+}
+
 p{
   color: #000000;
   font-family: 'Montserrat';
