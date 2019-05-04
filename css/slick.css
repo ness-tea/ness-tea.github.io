@@ -4,6 +4,8 @@
     position: relative;
 
     display: block;
+    overflow: hidden;
+
     box-sizing: border-box;
 
     -webkit-user-select: none;
@@ -26,6 +28,7 @@
     overflow: hidden;
 
     margin: 0;
+    margin-bottom: 3%;
     padding: 0;
 }
 .slick-list:focus

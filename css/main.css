@@ -277,8 +277,6 @@ hr.style2 {
 .project-item img{
   width: 25vw;
   height: 25vw;
-  margin-left: 4vw;
-  margin-bottom: 3vw
   opacity: 1.0;
   transition: opacity 0.5s;
 }
@@ -286,7 +284,6 @@ hr.style2 {
 .project-item img:hover{
   width: 25vw;
   height: 25vw;
-  margin-left: 4vw;
   margin-bottom: 2vw
   opacity: 0.85;
 }
@@ -305,9 +302,10 @@ hr.style2 {
 }
 
 .art-item img {
-  width: 28vw;
-  height: 28vw;
-  margin-left: 36vw;
+  width: 25vw;
+  height: 25vw;
+  margin: 0 auto;
+
 }
 
 p{
