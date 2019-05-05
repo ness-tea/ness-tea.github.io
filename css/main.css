@@ -251,8 +251,7 @@ hr.style2 {
 }
 
 .container-prof-pic {
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 12%;
   margin-left: 3%;
 
   display: inline-block;
@@ -334,6 +333,7 @@ p{
   min-width: 20vw;
   max-width: 35vw;
   margin-right: 70px;
+  margin-bottom:5%;
 }
 
 .about {
