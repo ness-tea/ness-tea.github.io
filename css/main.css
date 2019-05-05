@@ -268,38 +268,33 @@ hr.style2 {
   opacity: 1;
 }
 
+.project-grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  z-index: 7;
+}
+
 .project-item {
-  position:relative;
-  left: 33vw;
+  margin: 1% 1%;
+  font-size: 30px;
+  text-align: center;
 }
 
-.project-item img{
+.project-item img {
+  border: 1px solid rgba(0, 0, 0, 0.8);
   width: 25vw;
   height: 25vw;
-  opacity: 1.0;
-  transition: opacity 0.5s;
+  opacity: 1;
+  transition: opacity 0.5s, width 0.5s, height 0.5s;
 }
 
-.project-item img:hover{
-  width: 25vw;
-  height: 25vw;
-  margin-bottom: 2vw
-  opacity: 0.85;
+.project-item:hover img {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 27vw;
+  height: 27vw;
+  opacity: 0.6;
 }
-
-.project-title {
-  font-family: 'Montserrat';
-  margin-bottom: 1.3vw;
-  font-size: 2vw;
-  letter-spacing: 0.05em;
-  color: #e5e5e5;
-  text-shadow:
-  -1px -1px 0 #6b6b6b,
-  1px -1px 0 #6b6b6b,
-  -1px 1px 0 #6b6b6b,
-  1px 1px 0 #6b6b6b;
-}
-
 /* ---------------- Art section ---------------- */
 .art-item img {
   width: 25vw;
