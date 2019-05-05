@@ -277,22 +277,21 @@ hr.style2 {
 
 .project-item {
   margin: 1% 1%;
-  font-size: 30px;
   text-align: center;
 }
 
 .project-item img {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  width: 25vw;
-  height: 25vw;
+  width: 22vw;
+  height: 22vw;
   opacity: 1;
   transition: opacity 0.5s, width 0.5s, height 0.5s;
 }
 
 .project-item:hover img {
   border: 1px solid rgba(0, 0, 0, 0.8);
-  width: 27vw;
-  height: 27vw;
+  width: 23vw;
+  height: 23vw;
   opacity: 0.6;
 }
 /* ---------------- Art section ---------------- */
