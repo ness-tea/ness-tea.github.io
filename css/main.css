@@ -51,9 +51,8 @@ h2.title {
   height: 5%
 }
 
-h3 {
+h3, h4 {
   text-shadow: left;
-  font-size: 17px;
   font-weight: 400;
   margin: 0;
 }
@@ -276,15 +275,17 @@ hr.style2 {
   opacity: 1;
 }
 
+/* ------------- Project section ------------- */
+
 .project-grid-container {
   display: inline-grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 0 auto;
   z-index: 7;
 }
 
 .project-item {
-  margin: 0.5vw 0.5vw;
+  margin: 0.2vw 0.2vw;
   text-align: center;
 }
 
@@ -300,8 +301,37 @@ hr.style2 {
   border: 1px solid rgba(0, 0, 0, 0.8);
   width: 23vw;
   height: 23vw;
-  opacity: 0.6;
+  opacity: 0.3;
 }
+
+.text-project-title {
+  font-family: 'Handlee';
+  font-size: 160%;
+  font-weight: bold;
+  position: relative;
+  bottom: 19vw;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.text-project {
+  font-family: 'Handlee';
+  font-size: 110%;
+  font-weight: 400;
+  position: relative;
+  bottom: 19vw;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.project-item:hover .text-project-title {
+  opacity: 1;
+}
+
+.project-item:hover .text-project {
+  opacity: 1;
+}
+
 /* ---------------- Art section ---------------- */
 .art-item img {
   width: 25vw;
@@ -311,7 +341,7 @@ hr.style2 {
   border: 2px double #383838;
 }
 
-p{
+.bio p {
   color: #000000;
   font-family: 'Montserrat';
   font-size: 0.85vw;
@@ -319,9 +349,7 @@ p{
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   line-height: 1.5em;
-}
 
-.bio p {
   text-align: justify;
 
   position: relative;
