@@ -279,12 +279,12 @@ hr.style2 {
 .project-grid-container {
   display: inline-grid;
   grid-template-columns: auto auto auto;
-  padding: 5%;
+  padding: 0 auto;
   z-index: 7;
 }
 
 .project-item {
-  margin: 2% 2%;
+  margin: 0.5vw 0.5vw;
   text-align: center;
 }
 
