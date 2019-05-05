@@ -243,17 +243,18 @@ hr.style2 {
 .bio {
   display: inline-block;
   text-align: center;
+
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .container-prof-pic {
-  margin-top: 12%;
-  margin-left: 3%;
-
   display: inline-block;
   font-family: 'Handlee';
 }
 
 .container-prof-pic img {
+  width: 25vw;
   border-radius: 50%;
   opacity: 0.9;
   transition: opacity 0.5s;
@@ -262,7 +263,7 @@ hr.style2 {
 .text-profpic {
   position: relative;
   bottom: 19vw;
-  right: 6vw;
+  right: 8vw;
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -327,7 +328,6 @@ p{
   left: 100px;
   min-width: 20vw;
   max-width: 35vw;
-  margin-right: 70px;
   margin-bottom:5%;
 }
 
