@@ -300,6 +300,7 @@ hr.style2 {
   width: 25vw;
   height: 25vw;
   margin: 0 auto;
+  padding: 0 auto;
   border: 2px double #383838;
 }
 
