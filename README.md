@@ -1,14 +1,10 @@
 # Personal Website
-A personal website in-the-making for my portfolio, comprising software projects and artwork.
+A personal website for portfolio displaying. Comprised of software & design projects.
 
 Written using the following:
   - HTML
   - CSS
-
-Currently learning:
-  - JavaScript
-  - jQuery
-  - React.js
+  - JS
   
 https://nessenceart.github.io/
 
