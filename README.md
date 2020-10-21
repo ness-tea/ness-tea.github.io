@@ -1,4 +1,4 @@
 # Personal Website
 
-https://nessenceart.github.io/
+https://nessa-art.github.io/
 
