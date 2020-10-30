@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 
-<?php 
-    include("header.php");
-    include("nav.php");
-?>
-
 <head>
     <meta charset="utf-8">
     <title>Vanessa Truong | Art ⬩ Software</title>
@@ -29,7 +24,3 @@
     <br></br><br></br><br></br>
     <h3>... more coming soon!</h3>
 </body>
-
-<?php 
-    include("footer.php");
-?>
