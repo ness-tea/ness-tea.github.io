@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Vanessa Truong | Art ⬩ Software</title>
+    <title>Vanessa Truong | software ⬩ art</title>
 
     <!--- Google fonts --->
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet"> 
@@ -14,17 +14,49 @@
     <link href="css/main_new.css" type="text/css" rel="stylesheet">
 
     <link rel="icon" href="assets/Logos/favicon.png">
+
+    <script type="text/javascript">
+        var i = 0;
+        function setBackgroundImage() {
+            setInterval(changeBackground, 1000);
+        }
+
+        function changeBackground() {
+            var images = ["url(assets/Images/Page_backgrounds/homepage2.jpg)",
+                      "url(assets/Images/Page_backgrounds/homepage3.jpg)"];
+
+            if (i == images.length)
+            {
+                i = 0;
+            }
+            document.getElementById('hero').style.backgroundImage = images[i];
+            i += 1;          
+        }
+    </script>
 </head>
 
-<body>
-    <h2 class="adjust-margin-bottom" id="h2-hero">Hi there! I'm</h2>
-    <h1>Vanessa </h1>
-    <h1 id="h1-style2">Truong</h1>
+<body onload="setBackgroundImage();">
+    <div class="nav-bar">
+        <ul>
+            <li>about</li>
+            <li>software</li>
+            <li>art</li>
+            <li class="contact">contact</li>
+        </ul>
+    </div>
 
-    <br></br><br></br><br></br>
-    <h3>... more coming soon!</h3>
+    <section id="hero">
+        <div id="hero-inner">
+            <h2 class="adjust-margin-bottom">Hi there! I'm</h2>
+            <h1>Vanessa </h1>
+            <h1 id="h1-style2">Truong</h1>
+    
+            <br></br><br></br><br></br>
+            <h3>... more coming soon!</h3>
+        </div>
+    </section>
 </body>
 
 <footer>
-    <h3>Made with ♡ (& lots of ☕)</h2>
+    <p>Made with <span style="color:#b54369; font-size: 115%">♡</span> (& lots of ☕)</p>
 </footer>
