@@ -13,23 +13,22 @@
     <!--- CSS Styling --->
     <link href="css/main_new.css" type="text/css" rel="stylesheet">
 
-    <link rel="icon" href="assets/Logos/favicon.png">
+    <link rel="icon" href="assets/Logos/favicon1.png">
 
     <script type="text/javascript">
         var i = 0;
+        var urls = ["assets/Images/Page_backgrounds/homepage2.jpg",
+                        "assets/Images/Page_backgrounds/homepage3.jpg"];
         function setBackgroundImage() {
             setInterval(changeBackground, 1000);
         }
-
+        
         function changeBackground() {
-            var images = ["url(assets/Images/Page_backgrounds/homepage2.jpg)",
-                      "url(assets/Images/Page_backgrounds/homepage3.jpg)"];
-
-            if (i == images.length)
+            if (i == urls.length)
             {
                 i = 0;
             }
-            document.getElementById('hero').style.backgroundImage = images[i];
+            document.getElementById('hero').style.backgroundImage = 'url(' + urls[i] + ')';
             i += 1;          
         }
     </script>
