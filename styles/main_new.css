@@ -11,7 +11,7 @@ p {
     font-family: 'Montserrat';
     color: #474747;
     font-weight: 100;
-    font-size: 105%;
+    font-size: 110%;
     line-height: 30px;
 }
 
@@ -116,6 +116,7 @@ h2 {
     font-size: 250%;
     font-weight: 500;
     color: #3b3630;
+    margin-bottom: 0;
 }
 
 #hero-inner {
