@@ -1,7 +1,7 @@
 // Globals
 var urlindex = 0;
-var urls = ["assets/Images/backgrounds/homepage2.jpg",
-            "assets/Images/backgrounds/homepage3.jpg"];
+var urls = ["assets/img/backgrounds/homepage2.jpg",
+            "assets/img/backgrounds/homepage3.jpg"];
 
 // Set background every 1000 ms for GIF effect. 
 function setBackgroundImage() {
