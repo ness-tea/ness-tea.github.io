@@ -6,6 +6,15 @@ body {
     cursor: url(../assets/pointer.cur), pointer;
 }
 
+p {
+    /* Font */
+    font-family: 'Montserrat';
+    color: #474747;
+    font-weight: 100;
+    font-size: 105%;
+    line-height: 30px;
+}
+
 .loader {
     position: fixed;
     z-index: 99;
@@ -195,10 +204,4 @@ h2 {
 
 footer {
     text-align: center;
-
-    /* Font */
-    font-family: 'Montserrat';
-    color: #474747;
-    font-weight: 100;
-    font-size: 105%;
 }

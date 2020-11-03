@@ -1,205 +1,53 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Vanessa Truong</title>
+    <meta charset="utf-8">
+    <title>Vanessa Truong | Software ⬩ Art</title>
 
-<!--- Google fonts --->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <!--- Google fonts --->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
 
-<!--- CSS Styling --->
-  <link href="css/main.css" type="text/css" rel="stylesheet">
-  <link href="css/slick.css" type="text/css" rel="stylesheet">
-  <link href="css/slick-theme.css" type="text/css" rel="stylesheet">
+    <!--- CSS Styling --->
+    <link href="styles/main_new.css" type="text/css" rel="stylesheet">
 
-<!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  
-<link rel="icon" href="assets/Logos/header-ico.png">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logos/favi_v1.png">
+
+    <!-- Javascripts needed for dynamic client-side functionality -->
+    <script type="text/javascript" src="scripts/main.js"></script>
 </head>
 
-<body>
-
-<!--- Nav Bar --->
-  <div id="home-section"></div>
-  <div class="header">
-    <div class="header-content">
-      <div class="links" id="tab-1" style="display: inline">
-        <a href="#home-section">HOME</a>
-        <a href="#about-section">ABOUT</a>
-        <a href="#projects-section">PROJECTS</a>
-      </div>
-
-      <div style="display: inline;">
-          <img src = "assets/Logos/header-final-5-2.jpg" alt="Vanessa Truong" class="logo" width="52vw" height="52vw" style="margin-left: 10px; margin-right: 10px;z-index: 7"/>
-      </div>
-
-      <div class="links" id="tab-2" style="display: inline">
-          <a href="personalBlog.html">BLOG</a>
-          <a href="#art-section">ART</a>
-          <a href="#contact-section">CONTACT</a>
-      </div>
-    </div>
-  </div>
-
-<!--- The head section --->
-  <div class="content text-centered">
-    <div class="static-bg-1">
-      <div class="intro">
-        <h2 id="hline1">Hi, my name is</h2>
-        <h1 id="hline2">VANESSA </h1>
-        <h1 id="hline2-2">TRUONG</h1>
-        <br/>
-        <hr style="background-color: #8dbdc1; border: 2.5px solid #8dbdc1; width: 55%"/>
-        <hr style="border: 2px solid #afd7db; width: 40%"/>
-        <h3 id="hline3">🗹 artist</h3>
-        <h3 id="hline3-2">🗹 developer</h3>
-        <h3 id="hline3-3">🗹 software</h3>
-      </div>
-    </div>
-    <div id="about-section"></div>
-
-    <div class="static-bg-2">
-      <div class="container-prof-pic">
-        <img src="assets/Images/Profile/Profile.png" alt="profile" class="profpic"/>
-        <h3 class="text-profpic">dramatic</h3>
-        <h3 class="text-profpic">stare</h3>
-      </div>
-
-      <section class="bio">
-        <h2 class="about title">  <b>H</b> e l l o <b>W</b> o r l d</h2>
-        <br/>
-        <hr class="style2" style="width:40%">
-        <br/>
-        <div class="emoji"><img src="assets/Images/Profile/penguin.gif"/></div>
-        <p>
-            <span style="font-size: smaller">^ We all started here. Learn where I started!</span>
-            <br/><br/>
-            I'm an aspiring <b style="color: #8dbdc1">software engineer & game developer</b> studying <b>Software Engineering & Game Design</b> @ McMaster University.
-            I'm currently growing my domain in graphics / gaming development.
-            <br/><br/>
-            <i>Rollback</i> - It all began with my 4 year old self - doodling characters from my favourite anime shows (NARUTO - <i>"Believe it!"</i>) & throwing fits over why I couldn't beat that lvl 3 Jigglypuff in Smash Bros Melee.
-            I've also always been a huge fan of math. I particularly enjoy pattern-based problems!
-            <br/><br/>
-            <i>Carrying forward</i>, this has translated into my passion for software & design - with the hopes of breaking into the game industry! (It's a longer story than that - better saved for another time).
-            <br/><br/>
-            My career goal is ultimately to find something that will cultivate my nature to <b>create</b>, to <b>design</b>, to <b>innovate</b> & to <b>problem solve</b>.
-            <br/><br/>
-            My mantra: <i>"It always seems impossible until it's done."</i> - Nelson Mandela
-        </p>
-      </section>
+<body onload="setBackgroundImage();">
+    <div id="home"></div>
+    <div id="nav-bar">
+        <ul>
+            <li><a href="#home"><img src="assets/logos/favi_v1.png" width="70" height="70"></a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#software">software</li>
+            <li><a href="#art">art</a></li>
+            <li><a id="contact" href="#contact">contact</a></li>
+        </ul>
     </div>
 
-    <br/>
-    <div id="projects-section"></div>
-    <br/><br/><br/>
+    <section id="hero">
+        <div id="hero-inner">
+            <h2 class="adjust-margin-bottom">Hi there! I'm</h2>
+            <h1>Vanessa </h1>
+            <h1 id="h1-style2">Truong</h1>
+    
+            <br></br><br></br><br></br>
+            <h3>... more coming soon!</h3>
+            <p>This happens occasioanlly when I'm learning something new!</p>
+        </div>
+    </section>
 
-    <div class="projects static-bg-project">
-      <h2 class="title"><b>P</b> r o j e c t s</h2>
-      <br/>
-      <hr class="style2">
-      <p>Take a glimpse at some games / apps / other stuff I developed ♡</p>
-      <br/><br/>
-      <div class="project-grid-container">
-        <div class="project-item">
-          <img src="assets/Images/Projects/thevillage_.png" alt="The Village"/>
-          <h3 class="text-project-title">The Village</h3>
-          <h4 class="text-project">Buit with the Unity Engine</h4>
-          <p class="text-project">A 2D puzzle-platform game. Uncover the
-            <br/>hidden secrets and the dark truths that
-            <br/>are buried deep within the village.
-            <br/><br/>Is there a way out?</p>
-        </div>
-        <div class="project-item">
-          <img src="assets/Images/Projects/purpleMesh_.png" alt="Terrain Simulator"/>
-          <h3 class="text-project-title">Terrain Simulator</h3>
-          <h4 class="text-project">Buit with C++ & OpenGL</h4>
-          <p class="text-project">An .exe app that simulates a strip of
-            <br/>terrain based on a randomly-generated.
-            <br/>heightmap or on user's input.
-            <br/><br/>Implemented using the Circle's Algorithm.
-          </p>
-        </div>
-        <div class="project-item">
-          <img src="assets/Images/Projects/overview_.png" alt="Snake 2.0 Remastered"/>
-          <h3 class="text-project-title">Snake 2.0 (Remastered)</h3>
-          <h4 class="text-project">Buit with Java, AWT & Swing libraries</h4>
-          <p class="text-project">A remastered version of Snake.
-            <br/><br/>Additional obstacles, challenges, and twists
-            <br/>implemented in this modern take of the
-            <br/>beloved arcade game.</p>
-        </div>
-        <div class="project-item">
-          <img src="assets/Images/Projects/website_.png" alt="Personal Website"/>
-          <h3 class="text-project-title">This Website!</h3>
-          <h4 class="text-project">Buit with HTML, CSS, JS, & slick</h4>
-          <p class="text-project">Developed this website to display my.
-            <br/>portfolio and to self-teach web development
-            <br/>as a side project.
-          </p>
-        </div>
-      </div>
-      <br/><br/><br/>
-      <div id="art-section"></div>
-    </div>
-
-    <div class="artwork">
-      <h2 class="title"><b>A</b> r t <b>W</b> o r k </h2>
-      <br/>
-      <hr class="style2">
-      <p>"It is the spectator, and not life, that art really mirrors."</p>
-      <br/><br/>
-      <div class="art-arr">
-        <div class="art-item">
-          <img src="assets/Images/Art/hauntinghillhouse_.png"/>
-        </div>
-        <div class="art-item"><img src="assets/Images/Art/bm_nosedive_.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/bm_hangthedj_.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/parker_.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/lifeisstrange_.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/car_chef.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/car_fish.jpg"/></div>
-        <div class="art-item"><img src="assets/Images/Art/logo.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/albumart.png"/></div>
-        <div class="art-item"><img src="assets/Images/Art/portrait_.png"/></div>
-      </div>
-      <br/><br/><br/><br/>
-    </div>
-
-    <div id="contact-section"></div>
-    <div class="contact">
-      <div class="static-bg-contact">
-      <br/>
-      <h2 class="text-centered title"><b>F</b> i n d <b>M</b> e</h2>
-      <br/>
-      <hr class="style2">
-      <p>There's more than meets the eye - let's get in touch!</p>
-      <br/>
-      <div class="platforms">
-        <a href="https://github.com/nessa-art/" target="_blank"><i class="fab fa-github">GITHUB</i></a>
-        <a href="https://www.linkedin.com/in/vtruong97/" target="_blank"><i class="fab fa-linkedin">LINKEDIN</i></a>
-        <a href="https://instagram.com/_nessa_art" target="_blank"><i class="fab fa-instagram">INSTAGRAM</i></a>
-      </div>
-      <br/><br/>
-      </div>
-      <br/><br/>
-   </div>
-   <p style="color: #474747; font-size: 90%; font-weight: 300; margin: 0px; font-family: 'Handlee'">Built with <span style="color:#ff70b2">♡</span> by Vanessa Truong</p>
-   <br/>
-  </div>
-
-<!--- JS styling --->
-  <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
-  <script type="text/javascript" src="js/slick.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+    <div id="about"></div>
 
 </body>
 
-</html>
+<!-- <footer>
+    <p>Made with ❤ (& lots of ☕)</p>
+</footer> -->
