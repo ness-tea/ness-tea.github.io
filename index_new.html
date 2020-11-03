@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Vanessa Truong | software ⬩ art</title>
+    <title>Vanessa Truong | Software ⬩ Art</title>
 
     <!--- Google fonts --->
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet"> 
@@ -11,36 +11,23 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
 
     <!--- CSS Styling --->
-    <link href="css/main_new.css" type="text/css" rel="stylesheet">
+    <link href="styles/main_new.css" type="text/css" rel="stylesheet">
 
-    <link rel="icon" href="assets/Logos/favicon1.png">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/Logos/favi_v1.png">
 
-    <script type="text/javascript">
-        var i = 0;
-        var urls = ["assets/Images/Page_backgrounds/homepage2.jpg",
-                        "assets/Images/Page_backgrounds/homepage3.jpg"];
-        function setBackgroundImage() {
-            setInterval(changeBackground, 1000);
-        }
-        
-        function changeBackground() {
-            if (i == urls.length)
-            {
-                i = 0;
-            }
-            document.getElementById('hero').style.backgroundImage = 'url(' + urls[i] + ')';
-            i += 1;          
-        }
-    </script>
+    <!-- Javascripts needed for dynamic client-side functionality -->
+    <script type="text/javascript" src="scripts/main.js"></script>
 </head>
 
 <body onload="setBackgroundImage();">
-    <div class="nav-bar">
+    <div id="nav-bar">
         <ul>
-            <li>about</li>
-            <li>software</li>
-            <li>art</li>
-            <li class="contact">contact</li>
+            <li><a href="#home"><img src="assets/Logos/favi_v1.png" width="70" height="70"></a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#software">software</li>
+            <li><a href="#art">art</a></li>
+            <li><a id="contact" href="#contact">contact</a></li>
         </ul>
     </div>
 
@@ -54,8 +41,11 @@
             <h3>... more coming soon!</h3>
         </div>
     </section>
+
+    <div id="about"></div>
+
 </body>
 
 <footer>
-    <p>Made with <span style="color:#b54369; font-size: 115%">♡</span> (& lots of ☕)</p>
+    <p>Made with ❤ (& lots of ☕)</p>
 </footer>
