@@ -83,7 +83,7 @@ h2 {
     color: #3b3630;
 }
 
-#hero {
+#hero, #about-section {
     /* Sizing */
     width: 100vw;
     height: 100vh;
