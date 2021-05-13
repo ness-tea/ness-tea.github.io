@@ -32,7 +32,7 @@ p {
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
+@-moz-keyframes fadeIn {
     100% {
         opacity: 100;
         visibility: visible;        
@@ -44,7 +44,31 @@ p {
     }
 }
 
-@keyframes invisible {
+@-webkit-keyframes fadeIn {
+    100% {
+        -webkit-opacity: 100;
+        -webkit-visibility: visible;        
+    }
+
+    0% {
+        -webkit-opacity: 0;
+        -webkit-visibiltiy: hidden;
+    }
+}
+
+@-o-keyframes fadeIn {
+    100% {
+        opacity: 100;
+        visibility: visible;        
+    }
+
+    0% {
+        opacity: 0;
+        visibiltiy: hidden;
+    }
+}
+
+@-moz-keyframes invisible {
     100% {
         opacity: 0;
         visibiltiy: hidden;
@@ -56,13 +80,43 @@ p {
     }
 }
 
-@keyframes fallDown {
+@-webkit-keyframes invisible {
+    100% {
+        -webkit-opacity: 0;
+        -webkit-visibiltiy: hidden;
+    }
+
     0% {
-        position: -10%;
+        -webkit-opacity: 0;
+        -webkit-visibiltiy: hidden;
     }
 }
 
-@keyframes fadeInHover {
+@-o-keyframes invisible {
+    100% {
+        opacity: 0;
+        visibiltiy: hidden;
+    }
+
+    0% {
+        opacity: 0;
+        visibiltiy: hidden;
+    }
+}
+
+@-moz-keyframes fadeInHover {
+    100% {
+        opacity: 100;
+    }
+}
+
+@-webkit-keyframes fadeInHover {
+    100% {
+        -webkit-opacity: 100;
+    }
+}
+
+@-o-keyframes fadeInHover {
     100% {
         opacity: 100;
     }
@@ -108,9 +162,20 @@ h2 {
     background-attachment: fixed;
 
     /* Animations */
-    animation-name: invisible, fadeIn;
-    animation-duration: 4s, 1s;
-    animation-delay: 0s, 3s;
+    -webkit-animation-name: invisible, fadeIn;
+    -moz-animation-name: invisible, fadeIn;
+    -ms-animation-name: invisible, fadeIn;
+    -o-animation-name: invisible, fadeIn;
+
+    -webkit-animation-duration: 4s, 1s;
+    -moz-animation-duration: 4s, 1s;
+    -ms-animation-duration: 4s, 1s;
+    -o-animation-duration: 4s, 1s;
+
+    -webkit-animation-delay: 0s, 3s;
+    -moz-animation-delay: 0s, 3s;
+    -ms-animation-delay: 0s, 3s;
+    -o-animation-delay: 0s, 3s;
 }
 
 #hero h2 {
@@ -145,9 +210,20 @@ h2 {
     text-align: end;
 
     /* Animations */
-    animation-name: invisible, fadeIn;
-    animation-duration: 2s, 1s, 1s;
-    animation-delay: 0s, 2s, 2s;
+    -webkit-animation-name: invisible, fadeIn;
+    -moz-animation-name: invisible, fadeIn;
+    -ms-animation-name: invisible, fadeIn;
+    -o-animation-name: invisible, fadeIn;
+
+    -webkit-animation-name: 2s, 1s, 1s;
+    -moz-animation-name: 2s, 1s, 1s;
+    -ms-animation-duration: 2s, 1s, 1s;
+    -o-animation-duration: 2s, 1s, 1s;
+
+    -webkit-animation-delay: 0s, 2s, 2s;
+    -moz-animation-delay: 0s, 2s, 2s;
+    -ms-animation-delay: 0s, 2s, 2s;
+    -o-animation-delay: 0s, 2s, 2s;
 }
 
 #nav-bar ul li {
