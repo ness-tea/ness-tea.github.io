@@ -3,13 +3,13 @@ body {
     padding: 0;
     scroll-behavior: smooth; 
     overflow-x: hidden;
-    cursor: url(../assets/pointer.cur), pointer;
+    cursor: url(../assets/NormalSelect.cur), pointer;
 }
 
 p {
     /* Font */
-    font-family: 'Montserrat';
-    color: #474747;
+    font-family: 'Pavanam';
+    color: #595757;
     font-weight: 100;
     font-size: 110%;
     line-height: 30px;
@@ -69,18 +69,23 @@ p {
 }
 
 h1 {
-    font-family: 'Kaushan Script';
-    font-size: 600%;
+    font-family: 'Loved by the King';
+    font-size: 850%;
     font-weight: 600;
     color: #3b3630;
     display:inline;
 }
 
 h2 {
-    font-family: 'Handlee';
+    font-family: 'Loved by the King';
     font-size: 300%;
     font-weight: 600;
     color: #3b3630;
+}
+
+#hero p, h3, h2, h1, hr {
+    position: relative;
+    left: -30%;
 }
 
 #hero, #about-section {
@@ -93,9 +98,10 @@ h2 {
     justify-content: center;
     align-items: center;
 
-    text-align: center;
+    text-align: left;
 
     /* Background */
+    background-image: url("../assets/graphics/hero1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -103,8 +109,8 @@ h2 {
 
     /* Animations */
     animation-name: invisible, fadeIn;
-    animation-duration: 2s, 1s;
-    animation-delay: 0s, 2s;
+    animation-duration: 4s, 1s;
+    animation-delay: 0s, 3s;
 }
 
 #hero h2 {
@@ -112,29 +118,20 @@ h2 {
 }
 
 #hero h3 {
-    font-family: 'Montserrat';
+    font-family: 'Pavanam';
     font-size: 250%;
     font-weight: 500;
-    color: #3b3630;
+    color: #595757;
     margin-bottom: 0;
-}
-
-#hero-inner {
-    margin-top: -10%;
 }
 
 #h1-style2 {
     color: #fff;
     text-shadow:
-    -1.5px -1.5px 0 #707070,
-    1.5px -1.5px 0 #707070,
-    -1.5px 1.5px 0 #707070,
-    1.5px 1.5px 0 #707070;
-
-}
-
-.adjust-margin-bottom {
-    margin-bottom: 1%;
+    -1.5px -1.5px 0 #595757,
+    1.5px -1.5px 0 #595757,
+    -1.5px 1.5px 0 #595757,
+    1.5px 1.5px 0 #595757;
 }
 
 #nav-bar {
@@ -143,12 +140,12 @@ h2 {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    margin-top: 1%;
+    margin-top: 0.5%;
     width: 100%; /* Full width */
     text-align: end;
 
     /* Animations */
-    animation-name: invisible, fadeIn, fallDown;
+    animation-name: invisible, fadeIn;
     animation-duration: 2s, 1s, 1s;
     animation-delay: 0s, 2s, 2s;
 }
@@ -156,21 +153,22 @@ h2 {
 #nav-bar ul li {
     /* Positionig */
     display: inline;
-    margin-right: 2%;
+    margin-right: 2.5%;
 
     /* Font */
-    font-family: 'Montserrat';
-    font-size: 125%;
+    font-family: 'Mallanna';
+    font-size: 135%;
 }
 
 #nav-bar ul li:first-child {
     float: left;
     opacity: 0.65;
+    font-size: 150%;
+    font-weight: 600;
 }
 
 #nav-bar ul li:first-child:hover {
     animation: fadeInHover 1s;
-
     transition-delay: 1s;
     transition-property: opacity;
     opacity: 1;
@@ -178,28 +176,24 @@ h2 {
 
 #nav-bar a {
     text-decoration: none;
-    color: #3b3630;
+    color: #595757;
 }
 
 #nav-bar a:hover {
-    padding-bottom: 5px;
-    border-bottom: 4px solid #7ba8a7;
-    cursor: url(../assets/hand.cur), pointer;
-}
-
-#home-button {
-    text-align: left;
+    border-bottom: 2px solid #7ba8a7;
+    cursor: url(../assets/NormalSelect.cur), pointer;
 }
 
 #contact {
-    padding: 0.2% 1%;
-    border: 4px solid #707070;
+    padding: 0% 0.7%;
+    border: 2px solid #999999;
 }
 
 #contact:hover{
-    padding: 0.2% 1%;
-    border: 4px solid #7ba8a7;
-    cursor: url(../assets/hand.cur), hand;
+    padding: 0% 0.7%;
+    border: 2px solid #7ba8a7;
+    background-color: #7ba8a7;
+    color: whitesmoke;
 }
 
 footer {
