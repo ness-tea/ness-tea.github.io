@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Content</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: opacity 0.5s ease;
+    }
+    .content {
+      margin: 20px;
+      text-align: center;
+    }
+    .moving-element {
+      position: relative;
+      transition: transform 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="content" id="content">
+    <h1 class="moving-element">Welcome to Page 1</h1>
+    <p>This is the first page.</p>
+    <a href="#" data-page="page2" class="link">Go to Page 2</a>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const content = document.getElementById("content");
+      const links = document.querySelectorAll(".link");
+
+      links.forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const page = e.target.dataset.page;
+
+          // Add animation to move elements
+          const movingElement = document.querySelector(".moving-element");
+          movingElement.style.transform = "translateX(200px)";
+
+          // Wait for the animation, then repopulate content
+          setTimeout(() => {
+            if (page === "page2") {
+              content.innerHTML = `
+                <h1 class="moving-element">Welcome to Page 2</h1>
+                <p>This is the second page.</p>
+                <a href="#" data-page="page1" class="link">Go to Page 1</a>
+              `;
+              reinitializeEvents(); // Rebind event listeners
+            }
+          }, 1000); // Match the animation duration
+        });
+      });
+
+      function reinitializeEvents() {
+        document.querySelectorAll(".link").forEach(link => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const page = e.target.dataset.page;
+            content.innerHTML = `<p>Loading ${page}...</p>`;
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
